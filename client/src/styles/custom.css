@@ -1,0 +1,7 @@
+/* client/src/styles/custom.css */
+body {
+  background: #f5f6fa;
+}
+.card {
+  border-radius: 16px;
+}
