@@ -27,61 +27,22 @@ A web-based application to manage and monitor employee attendance, tasks, leaves
 
 ## 📂 Folder Structure
 `
-├── EmpTracker/
-│   ├── client/
-│   │   ├── .gitignore
-│   │   ├── eslint.config.js
-│   │   ├── index.html
-│   │   ├── package-lock.json
-│   │   ├── package.json
-│   │   ├── README.md
-│   │   ├── vite.config.js
-│   │   ├── public/
-│   │   │   ├── logo.svg
-│   │   │   ├── vite.svg
-│   │   ├── src/
-│   │   │   ├── App.css
-│   │   │   ├── App.jsx
-│   │   │   ├── index.css
-│   │   │   ├── main.jsx
-│   │   │   ├── assets/
-│   │   │   │   ├── react.svg
-│   │   │   ├── components/
-│   │   │   │   ├── DashboardCards.jsx
-│   │   │   │   ├── DepartmentStats.jsx
-│   │   │   │   ├── EmployeeAttendance.jsx
-│   │   │   │   ├── EmployeeForm.jsx
-│   │   │   │   ├── EmployeePerformance.jsx
-│   │   │   │   ├── EmployeeProfile.jsx
-│   │   │   │   ├── EmployeeProjects.jsx
-│   │   │   │   ├── EmployeeTable.jsx
-│   │   │   │   ├── Inbox.jsx
-│   │   │   │   ├── LogoutButton.jsx
-│   │   │   │   ├── Navbar.jsx
-│   │   │   │   ├── PersonalPerformance.jsx
-│   │   │   │   ├── RecentActivities.jsx
-│   │   │   │   ├── ThemeToggle.jsx
-│   │   │   ├── pages/
-│   │   │   │   ├── Dashboard.jsx
-│   │   │   │   ├── EmployeeProfilePage.jsx
-│   │   │   │   ├── Employees.jsx
-│   │   │   │   ├── Login.jsx
-│   │   │   │   ├── Profile.jsx
-│   │   │   ├── styles/
-│   │   │   │   ├── custom.css
+EmployeeTracker/
+├── server/
+│   ├── models/
+│   ├── routes/
+│   ├── server.js
 │
-│   ├── server/
-│   │   ├── package-lock.json
-│   │   ├── package.json
-│   │   ├── server.js
-│   │   ├── models/
-│   │   │   ├── Activity.js
-│   │   │   ├── Employee.js
-│   │   │   ├── InboxMessage.js
-│   │   │   ├── Leave.js
-│   │   ├── routes/
-│   │   │   ├── activities.js
-│   │   │   ├── employees.js
-│   │   │   ├── inboxRoutes.js
-│   │   │   ├── leaves.js
+├── client/
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── utils/
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── styles/
+├── package.json
+└── package-lock.json
 `
